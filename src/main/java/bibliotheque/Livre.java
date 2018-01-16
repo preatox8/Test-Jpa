@@ -11,6 +11,10 @@ import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 
+/**
+ * @author ETY2
+ *
+ */
 @Entity
 @Table(name="livre")
 public class Livre {

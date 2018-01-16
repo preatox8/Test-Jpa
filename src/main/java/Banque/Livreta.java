@@ -4,6 +4,10 @@ import javax.persistence.Column;
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
+/**
+ * @author ETY2
+ *
+ */
 @Entity
 @DiscriminatorValue("LivA")
 public class Livreta extends Compte{

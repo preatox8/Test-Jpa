@@ -13,6 +13,10 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+/**
+ * @author ETY2
+ *
+ */
 @Entity
 @Table(name="emprunt")
 public class Emprunt {

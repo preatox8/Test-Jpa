@@ -15,6 +15,10 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 
+/**
+ * @author ETY2
+ *
+ */
 @Entity
 @Table(name="client")
 public class Clientbibliotheque {

@@ -13,6 +13,10 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+/**
+ * @author ETY2
+ *
+ */
 @Entity
 @Table(name="operation")
 @Inheritance(strategy = InheritanceType.JOINED)

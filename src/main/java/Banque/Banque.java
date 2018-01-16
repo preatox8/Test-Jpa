@@ -13,6 +13,10 @@ import javax.persistence.Table;
 
 import bibliotheque.Emprunt;
 
+/**
+ * @author ETY2
+ *
+ */
 @Entity
 @Table(name="banque")
 public class Banque {

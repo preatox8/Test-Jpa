@@ -19,6 +19,10 @@ import javax.persistence.Table;
 
 import bibliotheque.Emprunt;
 
+/**
+ * @author ETY2
+ *
+ */
 @Entity
 @Table(name="compte")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)

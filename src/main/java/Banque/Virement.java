@@ -4,6 +4,10 @@ import javax.persistence.Entity;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 
+/**
+ * @author ETY2
+ *
+ */
 @Entity
 public class Virement extends Operation{
 

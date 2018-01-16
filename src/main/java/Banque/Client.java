@@ -20,6 +20,10 @@ import bibliotheque.Emprunt;
 import bibliotheque.Livre;
 
 
+/**
+ * @author ETY2
+ *
+ */
 @Entity
 @Table(name="client")
 public class Client {
