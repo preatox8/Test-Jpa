@@ -20,6 +20,9 @@
 		<class>Banque.Client</class>
 		<class>Banque.Compte</class>
 		<class>Banque.Operation</class>
+		<class>Banque.Livreta</class>
+		<class>Banque.Assurancevie</class>
+		<class>Banque.Virement</class>
 		<properties>
 			<property name="hibernate.archive.autodetection" value="" />
 			<property name="hibernate.hbm2ddl.auto" value="update"/>

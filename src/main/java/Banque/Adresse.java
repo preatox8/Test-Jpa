@@ -9,20 +9,17 @@ import javax.persistence.Id;
 @Embeddable
 public class Adresse {
 	
-	@Id
-	@GeneratedValue (strategy = GenerationType.IDENTITY)
-	private Integer id;
 	
-	@Column(name = "NUMERO", length = 10, nullable = false)
+	@Column(name = "NUMERO", length = 10)
 	private Integer numero;
 	
-	@Column(name = "RUE", length = 30, nullable = false)
+	@Column(name = "RUE", length = 30)
 	private String rue;
 	
-	@Column(name = "CODEPOSTAL", length = 5, nullable = false)
+	@Column(name = "CODEPOSTAL", length = 5)
 	private Integer codepostal;
 	
-	@Column(name = "VILLE", length = 30, nullable = false)
+	@Column(name = "VILLE", length = 30)
 	private String ville;
 
 	/**
@@ -84,20 +81,16 @@ public class Adresse {
 	public Adresse() {
 		super();
 	}
+	
 
-	/**
-	 * @return the id
-	 */
-	public Integer getId() {
-		return id;
+	public Adresse(Integer numero, String rue, Integer codepostal, String ville) {
+		super();
+		this.numero = numero;
+		this.rue = rue;
+		this.codepostal = codepostal;
+		this.ville = ville;
 	}
 
-	/**
-	 * @param id the id to set
-	 */
-	public void setId(Integer id) {
-		this.id = id;
-	}
 	
 	
 

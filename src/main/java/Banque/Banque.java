@@ -48,4 +48,39 @@ public class Banque {
 	
 	
 
+	/**
+	 * @return the id
+	 */
+	public Integer getId() {
+		return id;
+	}
+
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	/**
+	 * @return the clientbanque
+	 */
+	public List<Client> getClientbanque() {
+		return clientbanque;
+	}
+
+	/**
+	 * @param clientbanque the clientbanque to set
+	 */
+	public void setClientbanque(List<Client> clientbanque) {
+		this.clientbanque = clientbanque;
+	}
+
+	public Banque(String nom) {
+		super();
+		this.nom = nom;
+	}
+	
+	
+
 }

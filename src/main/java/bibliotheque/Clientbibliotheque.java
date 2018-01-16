@@ -17,7 +17,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="client")
-public class Client {
+public class Clientbibliotheque {
 
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
@@ -32,7 +32,7 @@ public class Client {
 	@OneToMany(mappedBy="client")
 	private List<Emprunt> emprunt1;
 	
-	public Client() {
+	public Clientbibliotheque() {
 		
 	}
 
